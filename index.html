@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap-grid.min.css">
+    
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content flex align-center">
+                <a href="#" class="header__logo">
+
+                    <span style="font-size: 24px; font-weight: 500; color: var(--main-color);">〇 simple</span>
+                </a>
+                <nav class="header__nav">
+                    <ul class="nav__list flex">
+                        <li class="nav__item"><a href="#" class="nav__link">Продукция</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Материалы</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__btns">
+                    <button class="header__btn" aria-label="Поиск">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                    <button class="header__btn" aria-label="Войти">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                            <polyline points="10 17 15 12 10 7"></polyline>
+                            <line x1="15" y1="12" x2="3" y2="12"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <div class="row align-center">
+                    <div class="col-lg-6 col-12 hero__content">
+                        <h1 class="title">Простые вещи.<br>Из бумаги</h1>
+                        <p class="descr hero__descr">Бумага (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.</p>
+                        <a href="#" class="link">Каталог</a>
+                    </div>
+                    <div class="col-lg-6 col-12 hero__image">
+                        <img src="https://live.verstaem.online/simple/img/hero-img.png" alt="Рулон бумаги Simple">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 
+        <section class="result">
+            <div class="container">
+                <div class="row">
+              
+                    <div class="col-lg-5 col-12 result__top">
+                        <div class="result__item result__item--v1">
+                            <div class="result__caption">V.1</div>
+                            <div class="descr">Результат вашего обучения</div>
+                        </div>
+                        <div class="result__item result__item--v2">
+                            <div class="result__caption">V.2</div>
+                            <div class="descr">Результат вашего обучения</div>
+                        </div>
+                        <div class="result__item result__item--v3">
+                            <div class="result__caption">V.3</div>
+                            <div class="descr">Результат вашего обучения</div>
+                        </div>
+                    </div>
+               
+                    <div class="col-lg-7 col-12 result__content">
+                        <h2 class="second-title result__subtitle">Максимальная<br>белизна</h2>
+                        <div class="result__subdescr">
+                            <p class="descr">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.</p>
+                            <p class="descr">Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="products">
+            <div class="container">
+                <div class="row">
+            
+                    <div class="col-lg-3 col-md-6 col-12 products__item">
+                        <div class="product-item">
+                            <img class="product-item__image" src="https://live.verstaem.online/simple/img/product-1.jpg" alt="Упаковка">
+                            <h3 class="product-item__title">Упаковка</h3>
+                            <div class="product-item__print">Тираж: от 50 штук</div>
+                            <p class="product-item__descr descr">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+                            <a href="#" class="product-item__link">Подробнее</a>
+                        </div>
+                    </div>
+                  
+                    <div class="col-lg-3 col-md-6 col-12 products__item">
+                        <div class="product-item">
+                            <img class="product-item__image" src="https://live.verstaem.online/simple/img/product-2.jpg" alt="Пакеты">
+                            <h3 class="product-item__title">Пакеты</h3>
+                            <div class="product-item__print">Тираж: от 200 штук</div>
+                            <p class="product-item__descr descr">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+                            <a href="#" class="product-item__link">Подробнее</a>
+                        </div>
+                    </div>
+              
+                    <div class="col-lg-3 col-md-6 col-12 products__item">
+                        <div class="product-item">
+                            <img class="product-item__image" src="https://live.verstaem.online/simple/img/product-3.jpg" alt="Кейсы">
+                            <h3 class="product-item__title">Кейсы</h3>
+                            <div class="product-item__print">Тираж: от 30 штук</div>
+                            <p class="product-item__descr descr">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+                            <a href="#" class="product-item__link">Подробнее</a>
+                        </div>
+                    </div>
+               
+                    <div class="col-lg-3 col-md-6 col-12 products__item">
+                        <div class="product-item">
+                            <img class="product-item__image" src="https://live.verstaem.online/simple/img/product-4.jpg" alt="Другие изделия">
+                            <h3 class="product-item__title">Другие изделия</h3>
+                            <div class="product-item__print">Тираж: от 100 штук</div>
+                            <p class="product-item__descr descr">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+                            <a href="#" class="product-item__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   
+        <section class="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="partners__item">
+                            <img src="https://live.verstaem.online/simple/img/partner-1.svg" alt="Hahnemühle">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="partners__item">
+                            <img src="https://live.verstaem.online/simple/img/partner-2.svg" alt="Canson">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="partners__item">
+                            <img src="https://live.verstaem.online/simple/img/partner-3.svg" alt="Royal Talens">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="partners__item">
+                            <img src="https://live.verstaem.online/simple/img/partner-4.svg" alt="Fabriano">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+        <section class="sketchbook">
+            <div class="container">
+                <div class="row align-center">
+                    <div class="col-lg-6 col-12 sketchbook__content">
+                        <h2 class="second-title sketchbook__title">Simple скетчбук</h2>
+                        <p class="descr sketchbook__descr">80 листов, твердая обложка, бумага Fabriano 200 г/м². Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
+                        <a href="#" class="link sketchbook__link">Купить</a>
+                    </div>
+                    <div class="col-lg-6 col-12 sketchbook__image text-end">
+                        <img src="https://live.verstaem.online/simple/img/sketch-img.png" alt="Скетчбук Simple">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__content">
+                    <a href="#" class="header__logo" style="margin-right: 0;">
+                        <span style="font-size: 24px; font-weight: 500; color: #fff;">〇 simple</span>
+                    </a>
+                    <div class="social">
+                        <a href="#" class="social__link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="social__link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" class="social__link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="#" class="social__link" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <div class="container">
+                <span>SIMPLE</span> © 2021
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
